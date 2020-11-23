@@ -3,12 +3,14 @@ import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-nati
 
 import CreateAccount from '../../components/CreateAccount';
 import OneItem from '../../components/OneItem';
+import TwoItens from '../../components/TwoItens';
 
 export default function Home() {
  return (
    <ScrollView style={styles.container}>
      <CreateAccount/>
      <OneItem/>
+     <TwoItens/>
    </ScrollView>
   );
 }
